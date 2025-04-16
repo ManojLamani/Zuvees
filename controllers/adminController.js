@@ -1,4 +1,4 @@
-// controllers/adminController.js
+
 const Order = require("../models/Order");
 const Rider = require("../models/Rider");
 

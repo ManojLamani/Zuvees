@@ -1,4 +1,3 @@
-// models/ApprovedEmail.js
 const mongoose = require('mongoose');
 
 const approvedEmailSchema = new mongoose.Schema({

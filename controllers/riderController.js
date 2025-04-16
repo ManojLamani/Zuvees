@@ -1,4 +1,3 @@
-// controllers/riderController.js
 const Order = require("../models/Order");
 
 exports.getAssignedOrders = async (req, res) => {

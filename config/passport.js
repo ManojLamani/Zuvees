@@ -40,7 +40,7 @@ passport.use(
             googleId: profile.id,
             name: profile.displayName,
             email: email,
-            role: approved.role || "user", // role from approved list or default 'user'
+            role: approved.role || "user", 
           }).save();
         }
 

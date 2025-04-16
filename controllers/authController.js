@@ -1,4 +1,4 @@
-// controllers/authController.js
+
 const passport = require("passport");
 const User = require("../models/User");
 
@@ -7,8 +7,7 @@ exports.login = (req, res) => {
 };
 
 exports.googleCallback = (req, res) => {
-  res.redirect("http://localhost:3000"); // Redirect to frontend after successful login
-};
+  res.redirect("http://localhost:3000"); 
 
 exports.isAuthenticated = (req, res, next) => {
   if (req.isAuthenticated()) {
